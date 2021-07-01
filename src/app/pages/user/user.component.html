@@ -1,0 +1,13 @@
+<form [formGroup]="userForm" (ngSubmit)="modifierUser()" *ngIf="user">
+    <label>Nom : 
+        <input type="text" formControlName="nom">
+    </label>
+    <label>Prenom : 
+        <input type="text" formControlName="prenom">
+    </label>
+    <label>Age : 
+        <input type="number" formControlName="age">
+    </label>
+
+    <button>Ajouter</button>
+</form>

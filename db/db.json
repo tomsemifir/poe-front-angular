@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nom": " Kirdou",
+      "prenom": "Ahmed",
+      "age": 35
+    },
+    {
+      "id": 2,
+      "nom": " Fourmaud",
+      "prenom": "Arnaud",
+      "age": 35
+    }
+  ]
+}
